@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Form to apply for Semester Exams</h1>
+    <form action="post">
+        <div>
+            <label for="username" > Enter Student Name</label>
+            <input type="text" id="username" name="usermames" placeholder="Enter your usermame">
+        </div>
+        <div>
+            <label for="gender">Select your Gender : </label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="text">Enter your review for exam</label>
+            <br>
+            <textarea name="comment" id="text" cols="30" rows="10" placeholder="Enter your comment..."></textarea>
+        </div>
+        <div>
+            <label for="fruits">
+                Select your favourite subject
+            </label>
+            <select name="Fruits" id="fruits">
+                <option value="Web Design">Web Design</option>
+                <option value="Maths">Maths</option>
+                <option value="Physics">Physics</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

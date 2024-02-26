@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example Form</title>
+</head>
+<body>
+
+<h2>Example Form</h2>
+
+<form action="/submit" method="post">
+  <!-- Text input -->
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+
+  <!-- Password input -->
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"><br>
+
+  <!-- Checkbox -->
+  <input type="checkbox" id="subscribe" name="subscribe">
+  <label for="subscribe">Subscribe to our newsletter</label><br>
+
+  <!-- Radio buttons -->
+  <label>Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+
+  <!-- Submit button -->
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

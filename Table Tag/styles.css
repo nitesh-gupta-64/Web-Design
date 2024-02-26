@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 148, 101, 0.6);
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    height: fit-content;
+    border: solid black 1px;
+    border-collapse: collapse;
+    margin: 30px;
+    background-image: url(./bg.png);
+    background-size: cover;
+}
+
+tr,td,th {
+    border: solid black 1px;
+    text-align: center;
+    padding: 10px 50px;
+
+}
