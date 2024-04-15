@@ -15,5 +15,5 @@ function calculate() {
         x = "Roots are real and distinct"
     }
 
-    document.getElementById("result").innerHTML = "Electricity Bill: " + x;
+    document.getElementById("result").innerHTML = x;
 }
